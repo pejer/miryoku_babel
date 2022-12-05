@@ -545,32 +545,32 @@ versions.
 Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 
 #+NAME: keycode-translation
-| A           | SE_A             |SE_A           | a             |
-| B           | SE_B             |SE_B           | b             |
-| C           | SE_C             |SE_C           | c             |
-| D           | SE_D             |SE_D           | d             |
-| E           | SE_E             |SE_E           | e             |
-| F           | SE_F             |SE_F           | f             |
-| G           | SE_G             |SE_G           | g             |
-| H           | SE_H             |SE_H           | h             |
-| I           | SE_I             |SE_I           | i             |
-| J           | SE_J             |SE_J           | j             |
-| K           | SE_K             |SE_K           | k             |
-| L           | SE_L             |SE_L           | l             |
-| M           | SE_M             |SE_M           | m             |
-| N           | SE_N             |SE_N           | n             |
-| O           | SE_O             |SE_O           | o             |
-| P           | SE_P             |SE_P           | p             |
-| Q           | SE_Q             |SE_Q           | q             |
-| R           | SE_R             |SE_R           | r             |
-| S           | SE_S             |SE_S           | s             |
-| T           | SE_T             |SE_T           | t             |
-| U           | SE_U             |SE_U           | u             |
-| V           | SE_V             |SE_V           | v             |
-| W           | SE_W             |SE_W           | w             |
-| X           | SE_X             |SE_X           | x             |
-| Y           | SE_Y             |SE_Y           | y             |
-| Z           | SE_Z             |SE_Z           | z             |
+| A           | SE_A             | SE_A          | a             |
+| B           | SE_B             | SE_B          | b             |
+| C           | SE_C             | SE_C          | c             |
+| D           | SE_D             | SE_D          | d             |
+| E           | SE_E             | SE_E          | e             |
+| F           | SE_F             | SE_F          | f             |
+| G           | SE_G             | SE_G          | g             |
+| H           | SE_H             | SE_H          | h             |
+| I           | SE_I             | SE_I          | i             |
+| J           | SE_J             | SE_J          | j             |
+| K           | SE_K             | SE_K          | k             |
+| L           | SE_L             | SE_L          | l             |
+| M           | SE_M             | SE_M          | m             |
+| N           | SE_N             | SE_N          | n             |
+| O           | SE_O             | SE_O          | o             |
+| P           | SE_P             | SE_P          | p             |
+| Q           | SE_Q             | SE_Q          | q             |
+| R           | SE_R             | SE_R          | r             |
+| S           | SE_S             | SE_S          | s             |
+| T           | SE_T             | SE_T          | t             |
+| U           | SE_U             | SE_U          | u             |
+| V           | SE_V             | SE_V          | v             |
+| W           | SE_W             | SE_W          | w             |
+| X           | SE_X             | SE_X          | x             |
+| Y           | SE_Y             | SE_Y          | y             |
+| Z           | SE_Z             | SE_Z          | z             |
 | 0           | 0                | NUM_0         | 0             |
 | 1           | 1                | NUM_1         | 1             |
 | 2           | 2                | NUM_2         | 2             |
