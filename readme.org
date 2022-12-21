@@ -101,6 +101,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
 
 
+#+NAME: thumbs_pejer
+| U_NP  | U_NP  | ESC   | TAB   | SPC   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+
 **** Hold
 
 #+NAME: hold
@@ -188,7 +191,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 #+NAME: azerty
 | A    | Z    | E    | R    | T    | Y    | U    | I    | O    | P    |
 | Q    | S    | D    | F    | G    | H    | J    | K    | L    | M    |
-| W    | X    | C    | V    | B    | N    | ,    | DOT  | /    | '    |
+| W    | X    | C    | V    | B    | N    | ,    | DOT  | /    | Ö    |
 
 
 ***** BEAKL-15
@@ -198,7 +201,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 #+NAME: beakl15
 | Q    | H    | O    | U    | X    | G    | C    | R    | F    | Z    |
 | Y    | I    | E    | A    | DOT  | D    | S    | T    | N    | B    |
-| J    | /    | ,    | K    | '    | W    | M    | L    | P    | V    |
+| J    | /    | ,    | K    | Ö    | W    | M    | L    | P    | V    |
 
 
 ***** Colemak
@@ -206,7 +209,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=COLEMAK~
 
 #+NAME: colemak
-| Q    | W    | F    | P    | G    | J    | L    | U    | Y    | '    |
+| Q    | W    | F    | P    | G    | J    | L    | U    | Y    | Ö    |
 | A    | R    | S    | T    | D    | H    | N    | E    | I    | O    |
 | Z    | X    | C    | V    | B    | K    | M    | ,    | DOT  | /    |
 
@@ -216,7 +219,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=COLEMAKDHK~
 
 #+NAME: colemakdhk
-| Q    | W    | F    | P    | B    | J    | L    | U    | Y    | '    |
+| Q    | W    | F    | P    | B    | J    | L    | U    | Y    | Ö    |
 | A    | R    | S    | T    | G    | K    | N    | E    | I    | O    |
 | Z    | X    | C    | D    | V    | M    | H    | ,    | DOT  | /    |
 
@@ -226,7 +229,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=DVORAK~
 
 #+NAME: dvorak
-| '    | ,    | DOT  | P    | Y    | F    | G    | C    | R    | L    |
+| Ö    | ,    | DOT  | P    | Y    | F    | G    | C    | R    | L    |
 | A    | O    | E    | U    | I    | D    | H    | T    | N    | S    |
 | /    | Q    | J    | K    | X    | B    | M    | W    | V    | Z    |
 
@@ -236,7 +239,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=HALMAK~
 
 #+NAME: halmak
-| W    | L    | R    | B    | Z    | '    | Q    | U    | D    | J    |
+| W    | L    | R    | B    | Z    | Ö    | Q    | U    | D    | J    |
 | S    | H    | N    | T    | ,    | DOT  | A    | E    | O    | I    |
 | F    | M    | V    | C    | /    | G    | P    | X    | K    | Y    |
 
@@ -246,7 +249,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=WORKMAN~
 
 #+NAME: workman
-| Q    | D    | R    | W    | B    | J    | F    | U    | P    | '    |
+| Q    | D    | R    | W    | B    | J    | F    | U    | P    | Ö    |
 | A    | S    | H    | T    | G    | Y    | N    | E    | O    | I    |
 | Z    | X    | M    | C    | V    | K    | L    | ,    | DOT  | /    |
 
@@ -257,7 +260,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: qwerty
 | Q    | W    | E    | R    | T    | Y    | U    | I    | O    | P    |
-| A    | S    | D    | F    | G    | H    | J    | K    | L    | '    |
+| A    | S    | D    | F    | G    | H    | J    | K    | L    | Ö    |
 | Z    | X    | C    | V    | B    | N    | M    | ,    | DOT  | /    |
 
 
@@ -267,7 +270,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: qwertz
 | Q    | W    | E    | R    | T    | Z    | U    | I    | O    | P    |
-| A    | S    | D    | F    | G    | H    | J    | K    | L    | '    |
+| A    | S    | D    | F    | G    | H    | J    | K    | L    | Ö    |
 | Y    | X    | C    | V    | B    | N    | M    | ,    | DOT  | /    |
 
 
@@ -515,7 +518,7 @@ Symbol, name, and shifted symbol mappings for use in tables.
 | ]    | RBRC | }    | RCBR |
 | \    | BSLS | PIPE | PIPE |
 | ;    | SCLN | :    | COLN |
-| '    | Ö    | DQUO | DQUO |
+| '    | QUOT | DQUO | DQUO |
 | ,    | COMM | <    | LT   |
 | "."  | DOT  | >    | GT   |
 | /    | SLSH | ?    | QUES |
@@ -1189,8 +1192,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OUT_ | QK_ | S( | C( | SCMD( | LCMD( | TD( | CAPSWRD | SE_ |
-
+| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG | SE_ |
 
 **** license-qmk
 
