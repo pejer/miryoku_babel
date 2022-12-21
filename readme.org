@@ -1189,7 +1189,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG |
+| U_ | RGB_ | OUT_ | QK_ | S( | C( | SCMD( | LCMD( | TD( | CAPSWRD | SE_ |
 
 
 **** license-qmk
