@@ -159,7 +159,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Sym
 
 #+NAME: sym-l
-| {    | &    | *    | (    | }    |r
+| {    | &    | *    | (    | }    |
 | :    | $    | %    | ^    | +    |
 | ~    | !    | @    | #    | PIPE |
 | U_NP | U_NP | (    | )    | _    |
