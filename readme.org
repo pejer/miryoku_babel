@@ -98,10 +98,6 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
-
-
-#+NAME: thumbs_pejer
 | U_NP  | U_NP  | ESC   | TAB   | SPC   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
 
 **** Hold
@@ -163,7 +159,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Sym
 
 #+NAME: sym-l
-| {    | &    | *    | (    | }    |
+| {    | &    | *    | (    | }    |r
 | :    | $    | %    | ^    | +    |
 | ~    | !    | @    | #    | PIPE |
 | U_NP | U_NP | (    | )    | _    |
@@ -505,7 +501,6 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | U_SYM    | Sym    |
 | U_FUN    | Fun    |
 
-
 **** symbol-names
 
 Symbol, name, and shifted symbol mappings for use in tables.
@@ -521,7 +516,7 @@ Symbol, name, and shifted symbol mappings for use in tables.
 | '    | QUOT | DQUO | DQUO |
 | ,    | COMM | <    | LT   |
 | "."  | DOT  | >    | GT   |
-| /    | SLSH | ?    | QUES |
+| /    | SE_SLSH | ?    | QUES |
 | 1    | 1    | !    | EXLM |
 | 2    | 2    | @    | AT   |
 | 3    | 3    | #    | HASH |
@@ -1192,7 +1187,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG | SE_ |
+| U_ | RGB_ | OU_  | QK_ | S( | C( | SCMD( | LCMD( | TD( | CW_TOGG | SE_ | 
 
 **** license-qmk
 
