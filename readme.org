@@ -516,7 +516,7 @@ Symbol, name, and shifted symbol mappings for use in tables.
 | '    | QUOT | DQUO | DQUO |
 | ,    | COMM | <    | LT   |
 | "."  | DOT  | >    | GT   |
-| /    | SE_SLSH | ?    | QUES |
+| /    | SLSH | ?    | QUES |
 | 1    | 1    | !    | EXLM |
 | 2    | 2    | @    | AT   |
 | 3    | 3    | #    | HASH |
