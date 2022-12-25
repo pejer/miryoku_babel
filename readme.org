@@ -678,7 +678,7 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | RPRN        | SE_RPRN          | RPAR          | U_RPRN        |
 | SCLN        | SE_SCLN          | SEMI          | ;             |
 | SLCK        | SCRL             | SLCK          | slck          |
-| SLSH        | SE_SLSH          | SLASH         | /             |
+| SLSH        | KC_PSLS          | SLASH         | /             |
 | SPC         | SPC              | SPC           | spc           |
 | TAB         | TAB              | TAB           | tab           |
 | TILD        | SE_TILD          | TILDE         | ~             |
